@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+}
+.bg { 
+    /* The image used */
+    /background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-image: url("../images/header.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+} 
+img{
+    width: 300px;
+    height: 300px;
+    transition: opacity .5s ease-in-out;
+}
+img:hover{
+    opacity: .5;
+}
+#work{
+    text-align: center;
+
+}
+.col-text  {
+    -webkit-column-count:3;
+    margin-top: 10px;
+/*    margin-bottom: 65px;*/
+}
+.hireme{
+    margin-top: 30px;
+}
+.foot{
+    background-color: silver;
+    margin: 30px 0 ;
+    padding: 20px;
+}
+.navmod{
+    align-content: center;
+    
+}
